@@ -14,7 +14,7 @@ unset CFLAGS
 export USE_OPENMP=1
 #TODO: Pass path
 export PREFIX=/home/builder/OpenBLAS/build
-
+export PREFIX=$(pwd)/local/openblas
 
 build_opts+=(USE_OPENMP=${USE_OPENMP})
 
